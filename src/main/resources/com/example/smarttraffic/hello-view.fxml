@@ -1,16 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
 
-<?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.smarttraffic.HelloController">
-  <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-  </padding>
-
-  <Label fx:id="welcomeText"/>
-  <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.smarttraffic.HelloController">
+   <children>
+      <Line fx:id="di" endX="426.0" endY="32.0" layoutX="131.0" layoutY="168.0" startX="384.70709228515625" startY="-18.29290771484375" />
+      <Line fx:id="qp" endX="105.0" endY="-21.0" layoutX="131.0" layoutY="273.0" startX="21.0" startY="-14.0" />
+      <Line fx:id="ib" endX="426.0" endY="93.0" layoutX="124.0" layoutY="210.0" startX="433.70709228515625" startY="-9.29290771484375" />
+      <Line fx:id="ed" endX="363.70709228515625" endY="-58.292877197265625" layoutX="109.0" layoutY="131.0" startX="406.0" startY="18.0" />
+      <Line fx:id="bo" endX="419.0" endY="64.0" layoutX="131.0" layoutY="239.0" startX="412.0" startY="141.0" />
+      <Line fx:id="gd" endX="369.70709228515625" endY="-156.29290771484375" layoutX="146.0" layoutY="306.0" startX="295.0" startY="-111.0" />
+      <Line fx:id="pl" endX="178.0" endY="-51.0" layoutX="141.0" layoutY="283.0" startX="95.0" startY="-31.0" />
+      <Line fx:id="ke" endX="10.0" endY="35.0" layoutX="462.0" layoutY="37.0" startX="-129.29290771484375" startY="3.29290771484375" />
+      <Line fx:id="lg" endX="386.29290771484375" endY="-169.29290771484375" layoutX="54.0" layoutY="365.0" startX="265.0" startY="-133.0" />
+      <Line fx:id="rq" endX="104.0" endY="-18.0" layoutX="48.0" layoutY="277.0" startX="25.0" startY="-18.0" />
+      <Line fx:id="sr" endX="-127.0" endY="-24.0" layoutX="141.0" layoutY="283.0" startX="-68.5" startY="-23.5" />
+      <Line fx:id="jb" endX="409.70709228515625" endY="19.29290771484375" layoutX="141.0" layoutY="283.0" startX="300.0" startY="-10.0" />
+      <Line fx:id="lj" endX="299.29290771484375" endY="-10.70709228515625" layoutX="141.0" layoutY="283.0" startX="177.29290771484375" startY="-50.29290771484375" />
+      <Line fx:id="ml" endX="177.29290771484375" endY="-50.29290771484375" layoutX="141.0" layoutY="283.0" startX="74.0" startY="-95.0" />
+      <Line fx:id="um" endX="73.29290771484375" endY="-95.70709228515625" layoutX="141.0" layoutY="283.0" startX="-30.0" startY="-120.0" />
+      <Line fx:id="wu" endX="-30.0" endY="-120.0" layoutX="141.0" layoutY="283.0" startX="-95.0" startY="-172.0" />
+      <Line fx:id="ce" endX="331.0" endY="-211.0" layoutX="141.0" layoutY="283.0" startX="192.0" startY="-160.0" />
+      <Line fx:id="fc" endX="192.0" endY="-160.0" layoutX="141.0" layoutY="283.0" startX="46.0" startY="-153.0" />
+      <Line fx:id="wf" endX="46.0" endY="-153.0" layoutX="141.0" layoutY="283.0" startX="-95.70709228515625" startY="-172.70709228515625" />
+      <Line fx:id="mg" endX="300.0" endY="-88.0" layoutX="141.0" layoutY="283.0" startX="73.29290771484375" startY="-95.70709228515625" />
+      <Line endX="72.5858154296875" endY="-96.4141845703125" layoutX="141.0" layoutY="283.0" startX="-88.0" startY="-76.0" fx:id="xm" />
+      <Line fx:id="ht" endX="126.0" endY="81.0" layoutX="141.0" layoutY="283.0" startX="119.0" startY="27.0" />
+      <Line fx:id="ph" endX="118.29290771484375" endY="26.29290771484375" layoutX="141.0" layoutY="283.0" startX="95.0" startY="-31.0" />
+      <Line fx:id="mp" endX="74.0" endY="-95.0" layoutX="141.0" layoutY="283.0" startX="95.0" startY="-31.0" />
+      <Line fx:id="fm" endX="74.0" endY="-95.0" layoutX="141.0" layoutY="283.0" startX="46.0" startY="-153.0" />
+      <Line fx:id="nf" endX="59.29290771484375" endY="-211.29290771484375" layoutX="141.0" layoutY="283.0" startX="46.0" startY="-153.0" />
+      <Line fx:id="ao" endX="402.0" endY="97.0" layoutX="141.0" layoutY="283.0" startX="239.0" startY="71.0" />
+      <Line fx:id="ta" endX="238.29290771484375" endY="70.29290771484375" layoutX="141.0" layoutY="283.0" startX="126.0" startY="81.0" />
+      <Line fx:id="a1t" endX="126.0" endY="81.0" layoutX="141.0" layoutY="283.0" startX="46.0" startY="78.0" />
+      <Line fx:id="ya1" endX="45.29290771484375" endY="77.29290771484375" layoutX="141.0" layoutY="283.0" startX="-42.0" startY="71.0" />
+      <Line fx:id="zy" endX="-42.0" endY="71.0" layoutX="141.0" layoutY="283.0" startX="-95.0" startY="34.0" />
+      <Line fx:id="sz" endX="-95.70709228515625" endY="33.29290771484375" layoutX="141.0" layoutY="283.0" startX="-127.70709228515625" startY="-22.79290771484375" />
+      <Line fx:id="va1" endX="46.0" endY="78.0" layoutX="141.0" layoutY="283.0" startX="18.0" startY="34.0" />
+      <Line fx:id="qv" endX="18.0" endY="34.0" layoutX="141.0" layoutY="283.0" startX="11.0" startY="-24.0" />
+      <Line fx:id="ji" endX="417.4141845703125" endY="-83.0" layoutX="141.0" layoutY="283.0" startX="300.0" startY="-10.0" />
+      <Line endX="300.0" endY="-10.0" layoutX="141.0" layoutY="283.0" startX="239.0" startY="69.5858154296875" />
+      <Line fx:id="hj" endX="299.29290771484375" endY="-10.70709228515625" layoutX="141.0" layoutY="283.0" startX="119.0" startY="27.0" />
+      <Line fx:id="vh" endX="119.0" endY="27.0" layoutX="141.0" layoutY="283.0" startX="18.70709228515625" startY="34.70709228515625" />
+      <Line fx:id="zv" endX="18.0" endY="34.0" layoutX="141.0" layoutY="283.0" startX="-95.0" startY="34.0" />
+      <Line fx:id="nk" endX="10.0" endY="35.0" layoutX="322.0" layoutY="6.0" startX="-121.0" startY="65.0" />
+      <Circle fx:id="aa" fill="DODGERBLUE" layoutX="380.0" layoutY="354.0" onMouseClicked="#aaClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="bb" fill="DODGERBLUE" layoutX="550.0" layoutY="303.0" onMouseClicked="#bbClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cc" fill="DODGERBLUE" layoutX="333.0" layoutY="123.0" onMouseClicked="#ccClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="dd" fill="DODGERBLUE" layoutX="515.0" layoutY="149.0" onMouseClicked="#ddClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ee" fill="DODGERBLUE" layoutX="473.0" layoutY="71.0" onMouseClicked="#eeClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ff" fill="DODGERBLUE" layoutX="187.0" layoutY="130.0" onMouseClicked="#ffClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="gg" fill="DODGERBLUE" layoutX="441.0" layoutY="195.0" onMouseClicked="#ggClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="hh" fill="DODGERBLUE" layoutX="260.0" layoutY="310.0" onMouseClicked="#hhClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ii" fill="DODGERBLUE" layoutX="557.0" layoutY="200.0" onMouseClicked="#iiClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="jj" fill="DODGERBLUE" layoutX="441.0" layoutY="273.0" onMouseClicked="#jjClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="kk" fill="DODGERBLUE" layoutX="333.0" layoutY="40.0" onMouseClicked="#kkClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ll" fill="DODGERBLUE" layoutX="319.0" layoutY="232.0" onMouseClicked="#llClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="mm" fill="DODGERBLUE" layoutX="215.0" layoutY="188.0" onMouseClicked="#mmClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="nn" fill="DODGERBLUE" layoutX="201.0" layoutY="71.0" onMouseClicked="#nnClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="oo" fill="DODGERBLUE" layoutX="543.0" layoutY="380.0" onMouseClicked="#ooClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="pp" fill="DODGERBLUE" layoutX="236.0" layoutY="252.0" onMouseClicked="#ppClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="qq" fill="DODGERBLUE" layoutX="152.0" layoutY="259.0" onMouseClicked="#qqClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="rr" fill="DODGERBLUE" layoutX="73.0" layoutY="259.0" onMouseClicked="#rrClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ss" fill="DODGERBLUE" layoutX="14.0" layoutY="259.0" onMouseClicked="#ssClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="tt" fill="DODGERBLUE" layoutX="267.0" layoutY="364.0" onMouseClicked="#ttClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="uu" fill="DODGERBLUE" layoutX="111.0" layoutY="163.0" onMouseClicked="#uuClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="vv" fill="DODGERBLUE" layoutX="159.0" layoutY="317.0" onMouseClicked="#vvClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ww" fill="DODGERBLUE" layoutX="46.0" layoutY="111.0" onMouseClicked="#wwClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="xx" fill="DODGERBLUE" layoutX="53.0" layoutY="207.0" onMouseClicked="#xxClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="yy" fill="DODGERBLUE" layoutX="99.0" layoutY="354.0" onMouseClicked="#yyClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="zz" fill="DODGERBLUE" layoutX="46.0" layoutY="317.0" onMouseClicked="#zzClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="a1" fill="DODGERBLUE" layoutX="187.0" layoutY="361.0" onMouseClicked="#a1Clicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
