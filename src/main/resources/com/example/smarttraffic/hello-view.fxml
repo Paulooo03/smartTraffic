@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.shape.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.smarttraffic.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.smarttraffic.HelloController">
    <children>
       <Line fx:id="qp" endX="105.0" endY="-21.0" layoutX="131.0" layoutY="273.0" startX="21.0" startY="-14.0" />
       <Line fx:id="pl" endX="178.0" endY="-51.0" layoutX="141.0" layoutY="283.0" startX="95.0" startY="-31.0" />
@@ -19,10 +20,12 @@
       <Line fx:id="sz" endX="-95.70709228515625" endY="33.29290771484375" layoutX="141.0" layoutY="283.0" startX="-127.70709228515625" startY="-22.79290771484375" />
       <Line fx:id="va1" endX="46.0" endY="78.0" layoutX="141.0" layoutY="283.0" startX="18.0" startY="34.0" />
       <Line fx:id="qv" endX="18.0" endY="34.0" layoutX="141.0" layoutY="283.0" startX="11.0" startY="-24.0" />
-      <Line endX="300.0" endY="-10.0" layoutX="141.0" layoutY="283.0" startX="239.0" startY="69.5858154296875" />
+      <Line fx:id="aj" endX="300.0" endY="-10.0" layoutX="141.0" layoutY="283.0" startX="239.0" startY="69.5858154296875" />
       <Line fx:id="hj" endX="299.29290771484375" endY="-10.70709228515625" layoutX="141.0" layoutY="283.0" startX="119.0" startY="27.0" />
       <Line fx:id="vh" endX="119.0" endY="27.0" layoutX="141.0" layoutY="283.0" startX="18.70709228515625" startY="34.70709228515625" />
       <Line fx:id="zv" endX="18.0" endY="34.0" layoutX="141.0" layoutY="283.0" startX="-95.0" startY="34.0" />
+
+      <!-- Circles -->
       <Circle fx:id="aa" fill="DODGERBLUE" layoutX="380.0" layoutY="354.0" onMouseClicked="#aaClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fx:id="hh" fill="DODGERBLUE" layoutX="260.0" layoutY="310.0" onMouseClicked="#hhClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fx:id="jj" fill="DODGERBLUE" layoutX="441.0" layoutY="273.0" onMouseClicked="#jjClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
@@ -35,6 +38,8 @@
       <Circle fx:id="yy" fill="DODGERBLUE" layoutX="99.0" layoutY="354.0" onMouseClicked="#yyClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fx:id="zz" fill="DODGERBLUE" layoutX="46.0" layoutY="317.0" onMouseClicked="#zzClicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fx:id="a1" fill="DODGERBLUE" layoutX="187.0" layoutY="361.0" onMouseClicked="#a1Clicked" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+
+      <!-- Text Labels -->
       <Text layoutX="212.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Barite" />
       <Text layoutX="227.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Barite" />
       <Text layoutX="351.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Coral" />
@@ -45,7 +50,7 @@
       <Text layoutX="122.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cinnabar" />
       <Text layoutX="226.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cinnabar" />
       <Text layoutX="322.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cinnabar" />
-      <Text layoutX="408.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jevite" />
+      <Text layoutX="408.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Coral" />
       <Text layoutX="75.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Barnie" />
       <Text layoutX="189.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Barnie" />
       <Text layoutX="335.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Barnie" />
