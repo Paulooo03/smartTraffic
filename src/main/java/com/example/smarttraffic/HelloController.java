@@ -8,8 +8,6 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Polyline;
 
-import java.util.Arrays;
-
 public class HelloController {
 
     @FXML
